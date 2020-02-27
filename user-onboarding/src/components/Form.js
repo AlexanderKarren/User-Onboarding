@@ -27,8 +27,14 @@ const SignupForm = ({ values, touched, errors, status }) => {
     })
     return (
         <section>
-            <h2>Sign up</h2>
-            <p>anyone can sign up (as long as you are in 3rd grade and not LAME!)</p>
+            <div>
+                <img src="images/genie.gif" alt="funny genie" />
+                <div>
+                    <h2>Sign up</h2>
+                    <p>anyone can sign up (as long as you are in 3rd grade and not LAME!)</p>
+                </div>
+                <img src="images/genie.gif" alt="funny genie" />
+            </div>
             <Form autoComplete="off">
                 <label>
                     Name:

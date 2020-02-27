@@ -6,6 +6,19 @@ section {
     border-top:1px solid white;
 }
 
+section h2 {
+    text-align:center;
+}
+
+section > div {
+    display:flex;
+    justify-content:center;
+}
+
+section img {
+    width:150px;
+}
+
 form {
     background-color:lightgreen;
     color:black;
@@ -15,6 +28,7 @@ form {
     align-items:center;
     border:1px solid white;
     padding:20px 0;
+    margin-bottom:20px;
 }
 
 form > div {
