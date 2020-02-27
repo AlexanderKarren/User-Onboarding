@@ -2,4 +2,25 @@ section {
     display:flex;
     flex-direction:column;
     align-items:center;
+    width:100%;
+    border-top:1px solid white;
+}
+
+form {
+    background-color:lightgreen;
+    color:black;
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border:1px solid white;
+    padding:20px 0;
+}
+
+form > div {
+    color:red;
+}
+
+form label, div {
+    margin:5px 0;
 }
